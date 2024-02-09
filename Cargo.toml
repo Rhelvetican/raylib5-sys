@@ -1,0 +1,12 @@
+[package]
+name = "raylib5-sys"
+version = "0.1.0"
+authors = ["Rhelv <bionicvnb@gmail.com>"]
+edition = "2021"
+license = "MIT"
+description = "Low level bindings to Raylib v5"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bindgen = "0.69.4"
