@@ -1,5 +1,4 @@
 extern crate bindgen;
-use std::{env, path::PathBuf};
 
 fn main() {
     println!("cargo:rustc-link-lib=raylib");
