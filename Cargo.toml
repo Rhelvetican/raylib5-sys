@@ -4,9 +4,12 @@ version = "0.1.0"
 authors = ["Rhelv <bionicvnb@gmail.com>"]
 edition = "2021"
 license = "MIT"
-description = "Low level bindings to Raylib v5"
+description = "Low level bindings to Raylib v5. For Windows X64 only."
+repository = "https://github.com/Rhelvetican/raylib5-sys"
+homepage = "https://github.com/Rhelvetican/raylib5-sys"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[build-dependencies]
 bindgen = "0.69.4"
